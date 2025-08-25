@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.patient-form, .sensor-data, .camera-feed, .patient-info {
+    margin-top: 20px;
+}
+
+.patient-form input, .patient-form select, .patient-form button {
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.patient-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.patient-form button:hover {
+    background-color: #45a049;
+}
+
+.camera-feed img {
+    width: 100%;
+    border-radius: 10px;
+}
