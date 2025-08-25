@@ -2,6 +2,7 @@ Medipi is an IoT-based health monitoring system developed using Raspberry Pi 3 B
 
 The main goal of this project is to create a portable, affordable, and smart health monitoring device that can be used in rural areas, clinics, hospitals, or even at home. It helps doctors and patients to monitor vital signs remotely through a Flask-based web interface, while automatically saving all readings into a local SQLite3 database for future reference.
 
+
 ⚙️ Key Features
 
 🌡️ Body Temperature Measurement: Uses MLX90614 infrared sensor for accurate non-contact temperature readings.
@@ -19,7 +20,8 @@ The main goal of this project is to create a portable, affordable, and smart hea
 📊 Visualization: Data is shown in both text and graphical format for better understanding
 
 
-Hardware Components:
+
+>Hardware Components:
 
 -Raspberry Pi 3 B+
 
@@ -31,7 +33,7 @@ Hardware Components:
 
 -Breadboard, jumper wires, resistors
 
-Software & Tools:
+>Software & Tools:
 
 -Python
 
@@ -45,8 +47,8 @@ Software & Tools:
 
 -HTML, CSS (for frontend templates)
 
- 
- System Workflow
+
+>System Workflow
 
 Data Collection – Sensors (MLX90614 and Heart Rate Sensor) collect patient health data.
 
