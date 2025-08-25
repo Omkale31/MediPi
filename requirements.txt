@@ -1,0 +1,6 @@
+Flask
+smbus2
+mlx90614
+heartrate-monitor
+picamera2
+opencv-python
